@@ -1,0 +1,5 @@
+d = input().split()
+d1op = 7 - int(d[0])
+d2op = 7 - int(d[1])
+d3op = 7 - int(d[2])
+print(d1op + d2op + d3op)

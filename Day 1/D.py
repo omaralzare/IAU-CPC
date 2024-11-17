@@ -1,0 +1,19 @@
+step = int(input())
+stepCounter = 0
+while step != 0:
+    while step - 5 >= 0:
+        step -= 5
+        stepCounter += 1
+    while step - 4 >= 0:
+        step -= 4
+        stepCounter += 1
+    while step - 3 >= 0:
+        step -= 3
+        stepCounter += 1
+    while step - 2 >= 0:
+        step -= 2
+        stepCounter += 1
+    while step - 1 >= 0:
+        step -= 1
+        stepCounter += 1
+    print(stepCounter)
